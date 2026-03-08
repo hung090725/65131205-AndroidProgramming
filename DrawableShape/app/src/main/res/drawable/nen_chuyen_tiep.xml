@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    0 = ngang-->
+<!--    90 = dọc-->
+<!--    ở ảnh này 90 nên màu chuyển theo chiều dọc
+0 : trái sang phải
+90 : dưới lên trên bắt đầu ở dưới
+180 : phải sang trái
+270 : trên xuống dưới-->
+   <gradient
+       android:angle="90"
+       android:centerColor="#885B90D5"
+       android:endColor="#8840BA37"
+       android:startColor="#20B12A"
+       android:type="linear">
+   </gradient>
+
+
+</shape>
