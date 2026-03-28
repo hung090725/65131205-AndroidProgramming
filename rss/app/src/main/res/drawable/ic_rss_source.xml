@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Icon RSS / antenna để chọn nguồn -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M6.18,15.64a2.18,2.18 0,0 1,2.18 2.18C8.36,19.01 7.38,20 6.18,20C4.98,20 4,19.01 4,17.82a2.18,2.18 0,0 1,2.18 -2.18M6.18,12a5.99,5.99 0,0 1,5.99 6h-1.8a4.2,4.2 0,0 0,-4.2 -4.2V12m0,-4a9.99,9.99 0,0 1,10 10H14.4A8.2,8.2 0,0 0,6.18 9.8V8M6.18,4a14,14 0,0 1,14 14H18.4A12.22,12.22 0,0 0,6.18 5.8V4z"/>
+</vector>

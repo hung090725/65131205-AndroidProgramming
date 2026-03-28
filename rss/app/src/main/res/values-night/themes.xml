@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for night mode. -->
+    <style name="Base.Theme.Rss" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#1565C0</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">#004A77</item>
+        <item name="colorOnPrimaryContainer">#D1E4FF</item>
+        <item name="colorSecondary">#FF6F00</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorSurface">#1A1A2E</item>
+        <item name="colorOnSurface">#E0E0E0</item>
+    </style>
+
+    <style name="Theme.Rss" parent="Base.Theme.Rss" />
+</resources>

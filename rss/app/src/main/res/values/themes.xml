@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Rss" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#1565C0</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">#D1E4FF</item>
+        <item name="colorOnPrimaryContainer">#001D36</item>
+        <item name="colorSecondary">#FF6F00</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorSurface">#FAFAFA</item>
+        <item name="colorOnSurface">#1A1A2E</item>
+    </style>
+
+    <style name="Theme.Rss" parent="Base.Theme.Rss" />
+</resources>

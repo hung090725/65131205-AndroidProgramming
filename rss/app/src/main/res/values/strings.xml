@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VnExpress RSS</string>
+
+    <!-- Menu -->
+    <string name="search">Tìm kiếm</string>
+    <string name="search_hint">Tìm theo tiêu đề, nội dung...</string>
+    <string name="choose_source">Chọn chuyên mục</string>
+
+    <!-- Item card -->
+    <string name="share">Chia sẻ</string>
+    <string name="bookmark">Lưu bài viết</string>
+    <string name="thumbnail">Ảnh bài viết</string>
+
+    <!-- Filter chips -->
+    <string name="filter_all">Tất cả</string>
+    <string name="filter_bookmarked">Đã lưu</string>
+
+    <!-- States -->
+    <string name="no_data">Không có dữ liệu.\nKéo xuống để thử lại.</string>
+    <string name="loading_error">Lỗi tải dữ liệu. Kéo xuống để thử lại.</string>
+    <string name="error_prefix">Lỗi: </string>
+    <string name="result_count">%d bài viết</string>
+    <string name="source_changed">Đã chuyển sang: %s</string>
+    <string name="cancel">Hủy</string>
+</resources>

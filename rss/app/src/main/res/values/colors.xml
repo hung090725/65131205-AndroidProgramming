@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- App palette -->
+    <color name="primary">#1565C0</color>
+    <color name="primary_dark">#0D47A1</color>
+    <color name="accent">#FF6F00</color>
+
+    <!-- Background -->
+    <color name="background">#F0F4F8</color>
+    <color name="card_background">#FFFFFF</color>
+
+    <!-- Text -->
+    <color name="text_primary">#1A1A2E</color>
+    <color name="text_secondary">#555555</color>
+    <color name="text_hint">#9E9E9E</color>
+
+    <!-- Bookmark active color -->
+    <color name="bookmark_active">#F57F17</color>
+</resources>
