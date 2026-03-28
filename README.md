@@ -2,7 +2,7 @@ Lưu bài tập thực hành Android
 
 ## Quá trình thực hiện bài tập
 
-### Bài tập 11: Đọc báo tổng hợp (DocBaoTongHop)
+### Bài tập 11: rss Đọc báo tổng hợp 
 
 [Chi tiết bài tập](./rss)
 
@@ -48,14 +48,5 @@ Lưu bài tập thực hành Android
 - Ưu điểm: Hệ thống lưu trữ này nhẹ nhàng, dữ liệu được giữ lại ngay cả khi tắt ứng dụng đi mở lại. Cơ chế này được tích hợp song song và cập nhật liền mạch bằng `Adapter`.
 
 ---
-
-### 6. CÁC TÍNH NĂNG CHÍNH (Key Features)
-Ứng dụng cung cấp các tính năng nổi bật nhằm tối ưu hóa trải nghiệm đọc báo:
-- **Đọc tin tức đa dạng**: Hỗ trợ nhiều danh mục tin từ VnExpress như Thời sự, Thế giới, Thể thao, Giải trí,... thông qua cơ chế chuyển đổi RSS URL linh hoạt.
-- **Tìm kiếm thông minh**: Tích hợp thanh tìm kiếm cho phép lọc nhanh các bài báo dựa trên tiêu đề hoặc nội dung mô tả ngay tại màn hình chính theo thời gian thực.
-- **Hệ thống Đánh dấu (Bookmarks)**: Người dùng có thể lưu lại những bài báo quan tâm để đọc sau. Danh sách này được lưu trữ cục bộ và vẫn tồn tại khi ứng dụng bị đóng.
-- **Giao diện hiện đại & Mượt mà**: Sử dụng `RecyclerView` kết hợp `CardView` cùng thư viện Glide để tối ưu hiệu suất tải ảnh, giúp việc cuộn danh sách trở nên trơn tru.
-
---
-*Sinh viên thực hiện: [Họ và tên của bạn]*
-*MSSV: [Mã số sinh viên]*
+*Sinh viên thực hiện: [Nguyễn Văn Hưng]*
+*MSSV: [65131205]*
