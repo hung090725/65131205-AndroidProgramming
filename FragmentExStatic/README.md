@@ -6,9 +6,9 @@ Project này minh hoa cach dung **Static Fragment**: `MainActivity` chua san 2 f
 
 ## Anh doi chieu (de bai va ket qua)
 
-| De bai mau | Ket qua app |
+| Ket qua app |
 |---|---|
-| <img src="docs/images/de-bai-mau.png" alt="De bai mau" width="280"/> | <img src="docs/images/ket-qua-app.png" alt="Ket qua app" width="220"/> |
+ | <img src="docs/images/ket-qua-app.png" alt="Ket qua app" width="220"/> |
 
 > Ghi nho nhanh: bai nay tap trung vao ky thuat dat 2 fragment co dinh trong layout, khong phai clone UI RSS 100%.
 
