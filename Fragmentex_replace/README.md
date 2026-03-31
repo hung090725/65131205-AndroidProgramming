@@ -1,29 +1,34 @@
-# Fragment Replace Demo (3 Buttons)
+# Demo Thay Fragment Bằng 3 Nút
 
-Demo nay gom 2 phan:
-- `ConTentFragment`: khung noi dung lon o tren.
-- `FooterFragment`: thanh 3 nut o duoi (`One`, `Two`, `Three`).
+Ứng dụng gồm 2 khu vực chính:
+- `ConTentFragment`: vùng nội dung ở phía trên màn hình.
+- `FooterFragment`: thanh 3 nút ở phía dưới (`One`, `Two`, `Three`).
 
-Khi bam tung nut, app thay Fragment trong vung noi dung bang `replace(...)`.
+Khi bấm mỗi nút, app sẽ thay Fragment trong vùng nội dung bằng lệnh `replace(...)`.
 
-## Ket qua khi bam nut
+## Kết Quả Khi Bấm Nút
 
-- Bam `One` -> hien `Fragment Number 1` (nen do).
-- Bam `Two` -> hien `Fragment Number 2` (nen xanh duong).
-- Bam `Three` -> hien `Fragment Number 3` (nen xanh ngoc).
+- Bấm `One` -> hiện `Fragment Number 1` (nền đỏ).
+- Bấm `Two` -> hiện `Fragment Number 2` (nền xanh dương).
+- Bấm `Three` -> hiện `Fragment Number 3` (nền xanh ngọc).
 
-### Anh minh hoa
+## Ảnh Minh Họa
 
-> Luu y: anh dang duoc luu tu workspace tam cua Cursor.
+### Bấm nút One
+![Ket qua nut One](docs/images/button-1.png)
 
-- Nut 1: `C:/Users/Admin/.cursor/projects/c-Users-Admin-StudioProjects-65131205-AndroidProgramming-Fragmentex-replace/assets/c__Users_Admin_AppData_Roaming_Cursor_User_workspaceStorage_634874a59f94dd0734eeeba668c1d33c_images_image-9ed053ce-06e0-41dc-bc9f-f48338a964b6.png`
-- Nut 2: `C:/Users/Admin/.cursor/projects/c-Users-Admin-StudioProjects-65131205-AndroidProgramming-Fragmentex-replace/assets/c__Users_Admin_AppData_Roaming_Cursor_User_workspaceStorage_634874a59f94dd0734eeeba668c1d33c_images_image-3e8bc599-27d0-4dc2-9033-719445a9d29e.png`
-- Nut 3: `C:/Users/Admin/.cursor/projects/c-Users-Admin-StudioProjects-65131205-AndroidProgramming-Fragmentex-replace/assets/c__Users_Admin_AppData_Roaming_Cursor_User_workspaceStorage_634874a59f94dd0734eeeba668c1d33c_images_image-fd9bed7c-650b-4ed2-9072-63c2f0955ebf.png`
-- Code den (doan replace): `C:/Users/Admin/.cursor/projects/c-Users-Admin-StudioProjects-65131205-AndroidProgramming-Fragmentex-replace/assets/c__Users_Admin_AppData_Roaming_Cursor_User_workspaceStorage_634874a59f94dd0734eeeba668c1d33c_images_image-e9bbd3ec-80a6-4f73-9872-912b4b8bd787.png`
+### Bấm nút Two
+![Ket qua nut Two](docs/images/button-2.png)
 
-## Giai thich de hieu doan code o anh den
+### Bấm nút Three
+![Ket qua nut Three](docs/images/button-3.png)
 
-Doan can hieu:
+### Đoạn code replace (ảnh đen)
+![Doan code replace fragment](docs/images/code-replace.png)
+
+## Giải Thích Dễ Hiểu Đoạn Code Ở Ảnh Đen
+
+Đoạn code cần hiểu:
 
 ```java
 fragmentManager.beginTransaction()
@@ -31,29 +36,29 @@ fragmentManager.beginTransaction()
         .commit();
 ```
 
-Giai nghia tung dong:
+Giải thích từng dòng:
 
-- `fragmentManager`:
-  la "nguoi quan ly Fragment". O day lay bang `getParentFragmentManager()`.
+- `fragmentManager`  
+  Là bộ quản lý Fragment. Trong bài này, nó được lấy bằng `getParentFragmentManager()`.
 
-- `beginTransaction()`:
-  mo mot "phien giao dich" de sua man hinh Fragment.
-  Cu hinh dung la "bat dau 1 lenh doi giao dien".
+- `beginTransaction()`  
+  Bắt đầu một giao dịch thay đổi Fragment. Có thể hiểu là "mở phiên cập nhật giao diện".
 
-- `.replace(R.id.fragmentContainerView_Content, new Fragment1())`:
-  - `R.id.fragmentContainerView_Content`: o de hien noi dung (khung tren trong `activity_main.xml`).
-  - `new Fragment1()`: tao Fragment moi.
-  - `replace(...)`: lay Fragment dang hien trong khung do ra, roi thay bang Fragment moi.
+- `.replace(R.id.fragmentContainerView_Content, new Fragment1())`  
+  - `R.id.fragmentContainerView_Content`: id của vùng đang hiển thị nội dung trong `activity_main.xml`.
+  - `new Fragment1()`: tạo đối tượng Fragment mới.
+  - `replace(...)`: thay Fragment đang hiển thị trong khung bằng Fragment mới.
 
-- `.commit()`:
-  xac nhan giao dich.
-  Neu khong co dong nay thi lenh thay Fragment chua duoc thuc thi.
+- `.commit()`  
+  Xác nhận và thực thi giao dịch. Nếu thiếu dòng này thì màn hình sẽ không đổi.
 
-Noi ngan gon: bam nut -> tao Fragment tuong ung -> thay vao `fragmentContainerView_Content` -> cap nhat man hinh.
+Tóm gọn luồng chạy: bấm nút -> tạo Fragment tương ứng -> `replace` vào `fragmentContainerView_Content` -> giao diện cập nhật.
 
-## File chinh cua bai
+## Các File Chính
 
-- `app/src/main/java/hung/edu/fragmentex_replace/FooterFragment.java`: xu ly su kien 3 nut + replace Fragment.
-- `app/src/main/res/layout/activity_main.xml`: co 2 `FragmentContainerView` (content + footer).
-- `app/src/main/res/layout/fragment_1.xml`, `fragment_2.xml`, `fragment_3.xml`: giao dien hien thi khi bam tung nut.
+- `app/src/main/java/hung/edu/fragmentex_replace/FooterFragment.java`: bắt sự kiện 3 nút và gọi `replace`.
+- `app/src/main/res/layout/activity_main.xml`: định nghĩa 2 `FragmentContainerView` (content + footer).
+- `app/src/main/res/layout/fragment_1.xml`: giao diện Fragment 1.
+- `app/src/main/res/layout/fragment_2.xml`: giao diện Fragment 2.
+- `app/src/main/res/layout/fragment_3.xml`: giao diện Fragment 3.
 
