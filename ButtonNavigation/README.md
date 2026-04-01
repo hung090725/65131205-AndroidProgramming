@@ -38,14 +38,6 @@ Dự án này minh họa cách sử dụng **Fragment động** kết hợp vớ
 - **Framework**: Android SDK
 - **Component**: Fragment, BottomNavigationView, FrameLayout, Material Components.
 
-## 🚀 Hướng Dẫn Cài Đặt
-1. Clone repository về máy:
-   ```bash
-   git clone https://github.com/hung090725/65131205-AndroidProgramming.git
-   ```
-2. Mở dự án bằng **Android Studio**.
-3. Chờ Gradle đồng bộ và nhấn **Run** để khởi chạy trên máy ảo hoặc thiết bị thực.
-
 ---
 **Thực hiện bởi:** Sinh viên MS - 65131205
 **Link YouTube hướng dẫn:** [Xem tại đây](https://youtu.be/yhXe2baNeAE?si=5q-p0_nq66VnTgWY)
