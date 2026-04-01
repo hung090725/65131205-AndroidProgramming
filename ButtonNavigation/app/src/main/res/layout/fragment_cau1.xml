@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8FAFC"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Cau1Fragment">
+
+    <TextView
+        android:id="@+id/tvTitleConvert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="DOI DON VI DO CHIEU DAI"
+        android:textAlignment="center"
+        android:textColor="#7F1D1D"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/edtMeter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:hint="Don vi do (m)"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/edtKm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:hint="Don vi do (km)"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnConvertLength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:text="DOI DON VI DO" />
+
+</LinearLayout>
