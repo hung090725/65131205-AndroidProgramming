@@ -22,8 +22,16 @@ Dự án này minh họa cách sử dụng **Fragment động** kết hợp vớ
    - Màn hình giới thiệu tổng quan về các bài thực hành trong ứng dụng.
 
 ## 📸 Ảnh Kết Quả Chạy Ứng Dụng
-![Kết quả chạy ứng dụng](./result_mockup.png)
-*(Lưu ý: Bạn có thể xem video demo đính kèm trong thư mục hoặc tại đường link YouTube bên dưới)*
+Ảnh chụp chạy thật trên máy ảo/thiết bị (điều hướng bằng Bottom Navigation):
+
+![Màn hình Trang chủ](./images/home.png)
+![Câu 1 - Đổi đơn vị](./images/cau1.png)
+![Câu 2 - Tính BMI](./images/cau2.png)
+![Câu 3 - Giải PT bậc 2](./images/cau3.png)
+![Câu 4 - Lời chào ngẫu nhiên](./images/cau4.png)
+
+## 🎬 Video demo
+- Xem video tại YouTube: [Bài tập Bottom Navigation](https://youtu.be/yhXe2baNeAE?si=5q-p0_nq66VnTgWY)
 
 ## 🛠️ Công Nghệ Sử Dụng
 - **Ngôn ngữ**: Java
@@ -40,4 +48,4 @@ Dự án này minh họa cách sử dụng **Fragment động** kết hợp vớ
 
 ---
 **Thực hiện bởi:** Sinh viên MS - 65131205
-**Link YouTube hướng dẫn:** [Xem tại đây](https://youtu.be/yhXe2baNeAE)
+**Link YouTube hướng dẫn:** [Xem tại đây](https://youtu.be/yhXe2baNeAE?si=5q-p0_nq66VnTgWY)
