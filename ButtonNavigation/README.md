@@ -30,14 +30,4 @@ Dự án này minh họa cách sử dụng **Fragment động** kết hợp vớ
 ![Câu 3 - Giải PT bậc 2](./images/cau3.png)
 ![Câu 4 - Lời chào ngẫu nhiên](./images/cau4.png)
 
-## 🎬 Video demo
-- Xem video tại YouTube: [Bài tập Bottom Navigation](https://youtu.be/yhXe2baNeAE?si=5q-p0_nq66VnTgWY)
 
-## 🛠️ Công Nghệ Sử Dụng
-- **Ngôn ngữ**: Java
-- **Framework**: Android SDK
-- **Component**: Fragment, BottomNavigationView, FrameLayout, Material Components.
-
----
-**Thực hiện bởi:** Sinh viên MS - 65131205
-**Link YouTube hướng dẫn:** [Xem tại đây](https://youtu.be/yhXe2baNeAE?si=5q-p0_nq66VnTgWY)
