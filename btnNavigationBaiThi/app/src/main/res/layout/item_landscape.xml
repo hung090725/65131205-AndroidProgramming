@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivLandscape"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_background" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tvLandscapeName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tên Cảnh Đẹp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:id="@+id/tvLandscapeLocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:text="📍 Địa danh"
+                    android:textColor="#555555"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tvLandscapeRating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:background="#FFF9C4"
+                    android:paddingHorizontal="8dp"
+                    android:paddingVertical="2dp"
+                    android:text="⭐ 5.0"
+                    android:textColor="#FBC02D"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+<!--    Chuột phải vào thư mục res/drawable.-->
+<!--    Chọn New -> Vector Asset.-->
+<!--    Ở cửa sổ hiện ra, bạn nhấn vào cái nút Clip Art (đang hiện hình con robot).-->
+<!--    Một kho icon sẽ hiện ra. Bạn gõ tìm kiếm:-->
+<!--    Gõ star -> chọn hình ngôi sao.-->
+<!--    Gõ place hoặc location -> chọn hình cái ghim.-->
+<!--    Bạn có thể đổi màu ở phần Color (ví dụ chọn màu vàng cho sao).-->
+<!--    Nhấn Next -> Finish.-->
+<!--    Sau đó dùng như thế nào? Sau khi làm xong, trong thư mục drawable của bạn sẽ xuất hiện file mới (ví dụ: ic_star.xml). Bạn có thể dùng nó trong file giao diện item_landscape.xml như sau:-->
+
+<!--    xml-->
+<!--<ImageView-->
+<!--android:layout_width="20dp"-->
+<!--android:layout_height="20dp"-->
+<!--android:src="@drawable/ic_star" />-->

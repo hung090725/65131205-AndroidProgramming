@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Chào Hưng"
+          android:id="@+id/navhome"
+          android:icon="@android:drawable/star_big_on"/>
+
+    <item android:title="Câu 1  "
+        android:id="@+id/navcau1"
+        android:icon="@android:drawable/checkbox_on_background"/>
+    <item android:title="Câu 2  "
+        android:id="@+id/navcau2"
+        android:icon="@android:drawable/ic_input_add"/>
+    <item android:title="Câu 3  "
+        android:id="@+id/navcau3"
+        android:icon="@android:drawable/presence_online"/>
+    <item android:title="Câu 4  "
+        android:id="@+id/navcau4"
+        android:icon="@android:drawable/stat_sys_speakerphone"/>
+
+</menu>
