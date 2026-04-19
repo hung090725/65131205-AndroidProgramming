@@ -1,9 +1,9 @@
 # Dự Án Thi Giữa Kỳ - Android Programming
 
 ## Thành viên thực hiện
-- **Họ và tên:** Nguyễn Văn Hùng
+- **Họ và tên:** Nguyễn Văn Hưng
 - **Mã sinh viên:** 65131205
-- **Lớp:** [Tên lớp của bạn]
+- **Lớp:** 65131205
 
 ## Mô tả ứng dụng
 Ứng dụng đa năng phục vụ các nhu cầu cơ bản bao gồm tính toán chỉ số sức khỏe, quản lý thực phẩm, tra cứu bài thuốc và đọc tin tức RSS.
@@ -17,7 +17,8 @@
 
 ## Kết quả giao diện (Screenshot)
 
-![Giao diện chính](ketqua.png)
+<img width="339" height="575" alt="image" src="https://github.com/user-attachments/assets/44a2b30a-8fb2-4168-b43f-30bd5843be4c" />
+
 
 ## Cấu trúc thư mục dự án
 - `app/src/main/java/thigk2/nguyenvanhung/`: Chứa các Activity xử lý logic.
@@ -26,4 +27,4 @@
 - `app/src/main/res/values/`: Chứa cấu hình màu sắc và chuỗi ký tự.
 
 ---
-*Yêu cầu bắt buộc: Commit đều đặn mỗi 10 phút.*
+
