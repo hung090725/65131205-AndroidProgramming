@@ -24,7 +24,7 @@ public class SinhVien implements Serializable {
         return maSV;
     }
 
-    public void gánMaSV(String maSV) {
+    public void ganMaSV(String maSV) {
         this.maSV = maSV;
     }
 
@@ -32,7 +32,7 @@ public class SinhVien implements Serializable {
         return hoTen;
     }
 
-    public void gánHoTen(String hoTen) {
+    public void ganHoTen(String hoTen) {
         this.hoTen = hoTen;
     }
 
@@ -40,7 +40,7 @@ public class SinhVien implements Serializable {
         return lop;
     }
 
-    public void gánLop(String lop) {
+    public void ganLop(String lop) {
         this.lop = lop;
     }
 

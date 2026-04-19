@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:angle="90"
+        android:centerColor="#EBF6FF"
+        android:endColor="#084925"
+        android:startColor="#0E7DD7"
+        android:type="linear">
+
+    </gradient>
+    <!--//corners = bo góc radius = độ cong-->
+    <corners
+        android:bottomRightRadius="120dp"
+        android:bottomLeftRadius="120dp">
+
+    </corners>
+
+</shape>

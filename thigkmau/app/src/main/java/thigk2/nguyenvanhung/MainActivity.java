@@ -12,47 +12,47 @@ import androidx.appcompat.app.AppCompatActivity;
  */
 public class MainActivity extends AppCompatActivity {
 
-    private Button nútBmi, nútMónĂn, nútBàiThuốc, nútGiớiThiệu, nútLàmThêm;
+    private Button nutBmi, nutMonAn, nutBaiThuoc, nutGioiThieu, nutLamThem;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        khởiTạoĐiềuKhiển();
-        thiếtLậpSựKiện();
+        khoiTaoDieuKhien();
+        thietLapSuKien();
     }
 
-    private void khởiTạoĐiềuKhiển() {
-        nútBmi = findViewById(R.id.button_BMI);
-        nútMónĂn = findViewById(R.id.button_monan);
-        nútBàiThuốc = findViewById(R.id.button_thuoc);
-        nútGiớiThiệu = findViewById(R.id.buttonGiơiThieu);
-        nútLàmThêm = findViewById(R.id.buttonlamthem);
+    private void khoiTaoDieuKhien() {
+        nutBmi = findViewById(R.id.button_BMI);
+        nutMonAn = findViewById(R.id.button_monan);
+        nutBaiThuoc = findViewById(R.id.button_thuoc);
+        nutGioiThieu = findViewById(R.id.buttonGiơiThieu);
+        nutLamThem = findViewById(R.id.buttonlamthem);
     }
 
-    private void thiếtLậpSựKiện() {
-        nútBmi.setOnClickListener(v -> {
+    private void thietLapSuKien() {
+        nutBmi.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, BmiActivity.class);
             startActivity(intent);
         });
 
-        nútMónĂn.setOnClickListener(v -> {
+        nutMonAn.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, MonAnActivity.class);
             startActivity(intent);
         });
 
-        nútBàiThuốc.setOnClickListener(v -> {
+        nutBaiThuoc.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, BaiThuocActivity.class);
             startActivity(intent);
         });
 
-        nútGiớiThiệu.setOnClickListener(v -> {
+        nutGioiThieu.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, GioiThieuActivity.class);
             startActivity(intent);
         });
 
-        nútLàmThêm.setOnClickListener(v -> {
+        nutLamThem.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, RssActivity.class);
             startActivity(intent);
         });

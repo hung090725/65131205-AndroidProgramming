@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/mau_nen">
+
+    <ImageView
+        android:id="@+id/imgChiTiet"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo_app"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/txtTenChiTiet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên món ăn"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/xanh_tieu_de_dam"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/txtMoTaChiTiet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mô tả chi tiết về món ăn sẽ hiển thị ở đây..."
+        android:textSize="18sp"
+        android:lineSpacingExtra="4dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btnQuayLai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QUAY LẠI"
+        android:backgroundTint="@color/xanh_tieu_de"
+        android:textColor="@color/white" />
+
+</LinearLayout>
