@@ -5,4 +5,11 @@
     <string name="btn_thuoc">Bài thuốc</string>
     <string name="btn_Giới_Thiệu">Giới thiệu</string>
     <string name="Bonus">Làm thêm</string>
+    <string name="tieu_de_bmi">TÍNH CHỈ SỐ BMI</string>
+    <string name="nhan_chieu_cao">Chiều cao (cm):</string>
+    <string name="nhan_can_nang">Cân nặng (kg):</string>
+    <string name="goi_y_chieu_cao">Ví dụ: 170</string>
+    <string name="goi_y_can_nang">Ví dụ: 65</string>
+    <string name="nut_tinh">TÍNH BMI</string>
+    <string name="ket_qua_bmi">Chỉ số BMI của bạn là:</string>
 </resources>

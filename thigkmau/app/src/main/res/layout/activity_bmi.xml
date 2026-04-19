@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/mau_nen"
+    tools:context=".BmiActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tieu_de_bmi"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/xanh_tieu_de_dam"
+        android:gravity="center"
+        android:layout_marginBottom="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nhan_chieu_cao"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/editChieuCao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/goi_y_chieu_cao"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:background="@drawable/khung_nut"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nhan_can_nang"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/editCanNang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/goi_y_can_nang"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:background="@drawable/khung_nut"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:id="@+id/nutTinhBmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nut_tinh"
+        android:padding="12dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/xanh_tieu_de_dam"
+        android:layout_marginBottom="30dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ket_qua_bmi"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txtChiSoBmi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.0"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:textColor="@color/xanh_tieu_de" />
+
+            <TextView
+                android:id="@+id/txtNhanXet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="---"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
