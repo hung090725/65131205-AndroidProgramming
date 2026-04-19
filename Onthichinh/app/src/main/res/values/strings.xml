@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">Ôn thi chính</string>
-    <string name="btn_bmi">BMI</string>
-    <string name="btn_food">Món ăn</string>
-    <string name="btn_remedy">Bài thuốc</string>
-    <string name="btn_info">Giới thiệu</string>
-    <string name="btn_bonus">Làm thêm</string>
-    <string name="title_home">TRANG CHỦ</string>
-</resources>
