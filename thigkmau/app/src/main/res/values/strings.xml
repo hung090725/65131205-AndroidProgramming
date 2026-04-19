@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Quản lý Sinh viên</string>
+    <string name="btn_bmi">BMI</string>
+    <string name="btn_food">Món ăn</string>
+    <string name="btn_thuoc">Bài thuốc</string>
+    <string name="btn_Giới_Thiệu">Giới thiệu</string>
+    <string name="Bonus">Làm thêm</string>
+</resources>

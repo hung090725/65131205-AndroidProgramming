@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="xanh_tieu_de">#2196F3</color>
+    <color name="xanh_tieu_de_dam">#1976D2</color>
+    <color name="nut_them">#4CAF50</color>
+    <color name="nut_sua">#FFC107</color>
+    <color name="nut_xoa">#F44336</color>
+    <color name="nut_lam_moi">#9E9E9E</color>
+    <color name="mau_nen">#F5F5F5</color>
+    <color name="Xanh_la_cay">#4CAF50</color>
+</resources>
