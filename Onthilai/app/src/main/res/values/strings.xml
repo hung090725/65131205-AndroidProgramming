@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Onlai</string>
+    <string name="btn_bmi">BMI</string>
+    <string name="btn_food">Món ăn</string>
+    <string name="btn_thuoc">Bài Thuốc</string>
+    <string name="btn_Giới_Thiệu">Giới Thiệu</string>
+    <string name="Bonus">Làm Thêm</string>
+</resources>

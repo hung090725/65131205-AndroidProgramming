@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <!-- Ảnh bài thuốc bên trái -->
+        <ImageView
+            android:id="@+id/imgRemedy"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_background" />
+
+        <!-- Tên bài thuốc ở trên bên phải -->
+        <TextView
+            android:id="@+id/tvRemedyName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_toEndOf="@id/imgRemedy"
+            android:text="Tên bài thuốc"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Thời gian ở dưới góc phải -->
+        <TextView
+            android:id="@+id/tvRemedyTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/tvRemedyName"
+            android:layout_marginTop="32dp"
+            android:text="15 phút"
+            android:textColor="@color/primary"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

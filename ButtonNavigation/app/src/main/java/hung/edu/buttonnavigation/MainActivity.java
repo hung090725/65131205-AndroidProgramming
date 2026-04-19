@@ -1,4 +1,4 @@
- package hung.edu.buttonnavigation;
+package hung.edu.buttonnavigation;
 
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -11,7 +11,7 @@ import androidx.fragment.app.Fragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 
- public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,6 +47,12 @@ import com.google.android.material.navigation.NavigationBarView;
         });
 
         if (savedInstanceState == null) {
+            // Tab "welcome" is already the default selection, so setSelectedItemId does NOT
+            // fire OnItemSelectedListener — fragment would stay empty without this.
+            getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.fragment_container, new QuestionsFragment())
+                    .commit();
             bottomNav.setSelectedItemId(R.id.navigation_welcome);
         }
     }
