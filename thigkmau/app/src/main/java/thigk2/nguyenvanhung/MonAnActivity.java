@@ -36,6 +36,7 @@ public class MonAnActivity extends AppCompatActivity {
     private void anhXa() {
         lvMonAn = findViewById(R.id.lvMonAn);
         dsMonAn = new ArrayList<>();
+        findViewById(R.id.btnBackMonAn).setOnClickListener(v -> finish());
     }
 
     private void docDuLieuJson() {

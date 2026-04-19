@@ -33,6 +33,7 @@ public class BmiActivity extends AppCompatActivity {
         nutTinh = findViewById(R.id.nutTinhBmi);
         vanBanChiSo = findViewById(R.id.txtChiSoBmi);
         vanBanNhanXet = findViewById(R.id.txtNhanXet);
+        findViewById(R.id.btnBackBmi).setOnClickListener(v -> finish());
     }
 
     private void caiDatTinhToan() {

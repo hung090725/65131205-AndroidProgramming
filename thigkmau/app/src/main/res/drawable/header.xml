@@ -10,8 +10,10 @@
     </gradient>
     <!--//corners = bo góc radius = độ cong-->
     <corners
-        android:bottomRightRadius="120dp"
-        android:bottomLeftRadius="120dp">
+        android:topLeftRadius="90dp"
+        android:topRightRadius="90dp"
+        android:bottomRightRadius="90dp"
+        android:bottomLeftRadius="90dp">
 
     </corners>
 

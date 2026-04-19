@@ -8,31 +8,29 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="DANH MỤC MÓN ĂN"
+        android:text="TIN TỨC SỨC KHOẺ"
         android:textSize="22sp"
         android:textStyle="bold"
         android:textColor="@color/white"
-        android:background="@color/xanh_tieu_de_dam"
+        android:background="@color/xanh_la_cay"
         android:padding="16dp"
         android:gravity="center" />
 
     <ListView
-        android:id="@+id/lvMonAn"
+        android:id="@+id/lvRss"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:divider="@android:color/transparent"
-        android:dividerHeight="0dp"
         android:padding="8dp"
         android:clipToPadding="false" />
 
     <Button
-        android:id="@+id/btnBackMonAn"
+        android:id="@+id/btnBackRss"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="QUAY LẠI"
         android:layout_margin="10dp"
-        android:backgroundTint="@color/xanh_tieu_de"
+        android:backgroundTint="@color/xanh_la_cay"
         android:textColor="@color/white" />
 
 </LinearLayout>
