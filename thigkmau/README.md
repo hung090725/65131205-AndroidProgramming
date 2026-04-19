@@ -1,8 +1,9 @@
 # BÁO CÁO DỰ ÁN THI GIỮA KỲ - LẬP TRÌNH ANDROID
 
 ## THÔNG TIN SINH VIÊN
-- **Họ và tên:** Nguyễn Văn Hùng
+- **Họ và tên:** Nguyễn Văn Hưng
 - **Mã sinh viên:** 65131205
+- **Lớp:** 65.CNTT-2
 - **Đề tài:** Ứng dụng Quản lý Sức khỏe & Tiện ích (Multi-Functional Student App)
 
 ---
@@ -65,6 +66,8 @@ Cập nhật tin tức Sức khỏe mới nhất từ báo VNExpress.
     - Phân tích thẻ `<item>`, lấy ra `<title>` và `<link>`.
     - Xử lý đồng bộ giao diện bằng `runOnUiThread()`.
 - **Tương tác:** Click vào tiêu đề tin tức sẽ mở trình duyệt web của điện thoại để đọc bài viết gốc.
+
+![Tin tức RSS](screenshot_rss.png)
 
 ---
 

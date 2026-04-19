@@ -63,7 +63,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Ngành học: Công nghệ thông tin"
+                    android:text="Lớp: 65.CNTT-2"
                     android:textSize="14sp"
                     android:layout_marginBottom="8dp" />
 
