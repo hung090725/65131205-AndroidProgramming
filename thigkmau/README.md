@@ -4,7 +4,7 @@
 - **Họ và tên:** Nguyễn Văn Hưng
 - **Mã sinh viên:** 65131205
 - **Lớp:** 65.CNTT-2
-- **Đề tài:** Ứng dụng Quản lý Sức khỏe & Tiện ích (Multi-Functional Student App)
+- **Đồ án:** Ứng dụng Quản lý Sức khỏe & Thông tin Tiện ích
 
 ---
 
@@ -70,11 +70,9 @@ Cập nhật tin tức Sức khỏe mới nhất từ báo VNExpress.
 ![Tin tức RSS](screenshot_rss.png)
 
 ---
-
-## 6. PHONG CÁCH LẬP TRÌNH
-Toàn bộ mã nguồn được viết theo phong cách **Tiếng Việt Không Dấu** để đảm bảo tính đồng nhất, dễ hiểu cho người Việt nhưng vẫn tuân thủ quy tắc đặt tên biến của Android:
-- Phương thức: `anhXaGiaoDien()`, `docDuLieuJson()`, `thietLapSuKien()`...
-- Biến số: `nutTinhBmi`, `oNhapChieuCao`, `dsMonAn`...
-
----
-**Dự án hoàn thành đúng tiến độ và yêu cầu của giảng viên.**
+## KẾT LUẬN
+Ứng dụng đáp ứng đầy đủ các yêu cầu về:
+- Giao diện trực quan, dễ sử dụng.
+- Xử lý dữ liệu động thông qua JSON và RSS.
+- Hiển thị danh sách đa dạng với ListView và RecyclerView.
+- Điều hướng mượt mà giữa các chức năng.
