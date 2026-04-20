@@ -13,6 +13,13 @@
 3. **Du lịch Nha Trang**: Hiển thị danh sách 5 địa điểm du lịch nổi tiếng tại Nha Trang với hình ảnh và thông tin chi tiết.
 4. **Thông tin cá nhân**: Trang hiển thị thông tin giới thiệu bản thân sinh viên (Ảnh, Họ tên, MSSV, Sở thích, Sở trường).
 
+## Hình ảnh kết quả chạy ứng dụng
+### 1. Màn hình chính
+![Màn hình chính](manghinhchinh.png)
+
+### 2. Chức năng tính toán (Chu vi & Diện tích)
+![Chức năng tính toán](tinhtoan.png)
+
 ## Hướng dẫn cài đặt
 1. Clone dự án về máy.
 2. Mở bằng Android Studio.
