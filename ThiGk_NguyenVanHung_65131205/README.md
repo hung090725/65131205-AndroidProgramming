@@ -20,6 +20,9 @@
 ### 2. Chức năng tính toán (Chu vi & Diện tích)
 ![Chức năng tính toán](tinhtoan.png)
 
+KHi Click hiện thông báo nhờ code Toast.make
+<img width="310" height="671" alt="image" src="https://github.com/user-attachments/assets/08d9536c-1830-4229-8816-ab593f3ca0cc" />
+
 
 ---
 *Ghi chú: Bài làm được thực hiện phân đoạn để đảm bảo chất lượng và đúng tiến độ.*
