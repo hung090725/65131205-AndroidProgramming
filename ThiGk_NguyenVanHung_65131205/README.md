@@ -15,7 +15,9 @@
 
 ## Hình ảnh kết quả chạy ứng dụng
 ### 1. Màn hình chính
-![Màn hình chính](manghinhchinh.png)
+
+<img width="348" height="649" alt="image" src="https://github.com/user-attachments/assets/41be36ab-ce7e-4ebd-99ec-f69784e0034c" />
+
 
 ### 2. Chức năng tính toán (Chu vi & Diện tích)
 ![Chức năng tính toán](tinhtoan.png)
