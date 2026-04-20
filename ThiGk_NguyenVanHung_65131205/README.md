@@ -22,7 +22,11 @@
 
 KHi Click hiện thông báo nhờ code Toast.make
 <img width="310" height="671" alt="image" src="https://github.com/user-attachments/assets/08d9536c-1830-4229-8816-ab593f3ca0cc" />
+cn3
+<img width="338" height="644" alt="image" src="https://github.com/user-attachments/assets/3c52e80a-105d-4edc-9942-0f45426688e6" />
 
+cn4
+<img width="346" height="647" alt="image" src="https://github.com/user-attachments/assets/e35ef869-8c80-45a5-9a6f-9bc800fda9f6" />
 
 ---
 *Ghi chú: Bài làm được thực hiện phân đoạn để đảm bảo chất lượng và đúng tiến độ.*
