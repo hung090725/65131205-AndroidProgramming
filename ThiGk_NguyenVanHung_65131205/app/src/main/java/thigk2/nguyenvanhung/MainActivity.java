@@ -53,7 +53,8 @@ public class MainActivity extends AppCompatActivity {
 
         // Chuc nang 2: Tinh thanh
         cardChucNang2.setOnClickListener(v -> {
-            Toast.makeText(this, "Mo Chuc nang 2: Tinh thanh", Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(MainActivity.this, ChucNang2Activity.class);
+            startActivity(intent);
         });
 
         // Chuc nang 3: Du lich
@@ -63,7 +64,8 @@ public class MainActivity extends AppCompatActivity {
 
         // Chuc nang 4: Ca nhan
         cardChucNang4.setOnClickListener(v -> {
-            Toast.makeText(this, "Mo Chuc nang 4: Thong tin ca nhan", Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(MainActivity.this, ChucNang4Activity.class);
+            startActivity(intent);
         });
     }
 }

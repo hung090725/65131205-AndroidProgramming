@@ -20,6 +20,9 @@
 ### 2. Chức năng tính toán (Chu vi & Diện tích)
 ![Chức năng tính toán](tinhtoan.png)
 
+### 3. Chức năng danh mục Tỉnh thành
+![Danh mục Tỉnh thành](danhsachtinhthanh.png)
+
 ## Hướng dẫn cài đặt
 1. Clone dự án về máy.
 2. Mở bằng Android Studio.
