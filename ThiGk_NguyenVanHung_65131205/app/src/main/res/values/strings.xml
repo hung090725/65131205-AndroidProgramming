@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Thi Giữa Kỳ - Nguyễn Văn Hưng</string>
+    <string name="title_main">THI GIỮA KỲ</string>
+    <string name="student_info">Nguyễn Văn Hưng - 65131205</string>
+    <string name="class_info">Lớp: 65.CNTT-2</string>
+    
+    <string name="btn_chuc_nang_1">Tính Chu vi &amp; Diện tích</string>
+    <string name="btn_chuc_nang_2">Danh sách Tỉnh thành</string>
+    <string name="btn_chuc_nang_3">Du lịch Nha Trang</string>
+    <string name="btn_chuc_nang_4">Thông tin cá nhân</string>
+    
+    <string name="back">Quay lại</string>
+</resources>

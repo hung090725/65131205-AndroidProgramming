@@ -1,0 +1,22 @@
+# BÀI THI GIỮA KỲ 2 - MÔN LẬP TRÌNH DI ĐỘNG
+
+## Thông tin sinh viên
+- **Họ và tên**: Nguyễn Văn Hưng
+- **MSSV**: 65131205
+- **Lớp**: 65.CNTT-2
+- **Ngày thi**: 20/04/2026
+
+## Giới thiệu ứng dụng
+Ứng dụng được xây dựng theo Đề thi số 01, bao gồm các chức năng chính:
+1. **Tính toán**: Cho phép tính Chu vi và Diện tích hình chữ nhật từ dữ liệu nhập vào (Chiều dài, Chiều rộng).
+2. **Danh mục Tỉnh thành**: Hiển thị danh sách 10 tỉnh thành của Việt Nam (có tên sinh viên trong danh sách).
+3. **Du lịch Nha Trang**: Hiển thị danh sách 5 địa điểm du lịch nổi tiếng tại Nha Trang với hình ảnh và thông tin chi tiết.
+4. **Thông tin cá nhân**: Trang hiển thị thông tin giới thiệu bản thân sinh viên (Ảnh, Họ tên, MSSV, Sở thích, Sở trường).
+
+## Hướng dẫn cài đặt
+1. Clone dự án về máy.
+2. Mở bằng Android Studio.
+3. Đồng bộ Gradle và chạy trên Emulator hoặc thiết bị thật.
+
+---
+*Ghi chú: Bài làm được thực hiện phân đoạn để đảm bảo chất lượng và đúng tiến độ.*
