@@ -29,6 +29,10 @@ cn3
 
 cn4
 <img width="346" height="647" alt="image" src="https://github.com/user-attachments/assets/e35ef869-8c80-45a5-9a6f-9bc800fda9f6" />
+<img width="340" height="697" alt="image" src="https://github.com/user-attachments/assets/febc375e-612f-4cef-a0e2-fb3438483ab3" />
+<img width="328" height="663" alt="image" src="https://github.com/user-attachments/assets/bce4d0a4-6205-46e1-97d0-d227d4587a23" />
+
+<img width="300" height="667" alt="image" src="https://github.com/user-attachments/assets/2bad1692-a439-4cb1-9080-5a8829f214b3" />
 
 ---
 *Ghi chú: Bài làm được thực hiện phân đoạn để đảm bảo chất lượng và đúng tiến độ.*
