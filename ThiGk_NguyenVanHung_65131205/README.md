@@ -20,10 +20,6 @@
 ### 2. Chức năng tính toán (Chu vi & Diện tích)
 ![Chức năng tính toán](tinhtoan.png)
 
-## Hướng dẫn cài đặt
-1. Clone dự án về máy.
-2. Mở bằng Android Studio.
-3. Đồng bộ Gradle và chạy trên Emulator hoặc thiết bị thật.
 
 ---
 *Ghi chú: Bài làm được thực hiện phân đoạn để đảm bảo chất lượng và đúng tiến độ.*
