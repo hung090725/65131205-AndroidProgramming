@@ -23,6 +23,12 @@
 ### 3. Chức năng danh mục Tỉnh thành
 ![Danh mục Tỉnh thành](danhsachtinhthanh.png)
 
+### 4. Chức năng thông tin cá nhân
+![Thông tin cá nhân](chucnang4kq.png)
+
+### 5. Chức năng du lịch Nha Trang
+![Du lịch Nha Trang](ketquachucnanng3.png)
+
 ## Hướng dẫn cài đặt
 1. Clone dự án về máy.
 2. Mở bằng Android Studio.

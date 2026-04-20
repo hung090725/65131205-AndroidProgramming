@@ -59,7 +59,8 @@ public class MainActivity extends AppCompatActivity {
 
         // Chuc nang 3: Du lich
         cardChucNang3.setOnClickListener(v -> {
-            Toast.makeText(this, "Mo Chuc nang 3: Du lich Nha Trang", Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(MainActivity.this, ChucNang3Activity.class);
+            startActivity(intent);
         });
 
         // Chuc nang 4: Ca nhan

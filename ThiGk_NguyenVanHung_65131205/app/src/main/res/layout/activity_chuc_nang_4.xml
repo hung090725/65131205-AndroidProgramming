@@ -58,7 +58,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/icon_user" />
+                    android:src="@drawable/anhdaidien" />
             </androidx.cardview.widget.CardView>
 
             <!-- Card thong tin chi tiet -->
