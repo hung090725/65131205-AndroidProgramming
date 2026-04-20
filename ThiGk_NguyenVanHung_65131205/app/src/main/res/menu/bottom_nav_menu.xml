@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Trang chủ" />
+    <item
+        android:id="@+id/nav_hinh_hoc"
+        android:icon="@drawable/ic_hinh_hoc"
+        android:title="Hình học" />
+    <item
+        android:id="@+id/nav_tinh_thanh"
+        android:icon="@drawable/ic_tinh_thanh"
+        android:title="Tỉnh thành" />
+    <item
+        android:id="@+id/nav_du_lich"
+        android:icon="@drawable/ic_du_lich"
+        android:title="Du lịch" />
+    <item
+        android:id="@+id/nav_ca_nhan"
+        android:icon="@drawable/ic_ca_nhan"
+        android:title="Cá nhân" />
+</menu>

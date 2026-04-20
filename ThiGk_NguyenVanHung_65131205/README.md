@@ -7,11 +7,11 @@
 - **Ngày thi**: 20/04/2026
 
 ## Giới thiệu ứng dụng
-Ứng dụng được xây dựng theo Đề thi số 01, bao gồm các chức năng chính:
-1. **Tính toán**: Cho phép tính Chu vi và Diện tích hình chữ nhật từ dữ liệu nhập vào (Chiều dài, Chiều rộng).
-2. **Danh mục Tỉnh thành**: Hiển thị danh sách 10 tỉnh thành của Việt Nam (có tên sinh viên trong danh sách).
-3. **Du lịch Nha Trang**: Hiển thị danh sách 5 địa điểm du lịch nổi tiếng tại Nha Trang với hình ảnh và thông tin chi tiết.
-4. **Thông tin cá nhân**: Trang hiển thị thông tin giới thiệu bản thân sinh viên (Ảnh, Họ tên, MSSV, Sở thích, Sở trường).
+Ứng dụng được xây dựng theo kiểu **Single-Activity** với **Bottom Navigation**, bao gồm:
+1. **Hình học**: Tính toán Chu vi và Diện tích hình chữ nhật.
+2. **Tỉnh thành**: Danh mục 10 tỉnh thành của Việt Nam.
+3. **Du lịch**: Top 5 địa điểm du lịch tại Nha Trang (có ảnh).
+4. **Cá nhân**: Giới thiệu sinh viên (ảnh thẻ thật, MSSV, sở thích).
 
 ## Hình ảnh kết quả chạy ứng dụng
 ### 1. Màn hình chính

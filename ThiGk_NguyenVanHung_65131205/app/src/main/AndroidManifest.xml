@@ -12,18 +12,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ThiGk_NguyenVanHung_65131205">
         <activity
-            android:name=".ChucNang3Activity"
-            android:exported="false" />
-        <activity
-            android:name=".ChucNang4Activity"
-            android:exported="false" />
-        <activity
-            android:name=".ChucNang2Activity"
-            android:exported="false" />
-        <activity
-            android:name=".ChucNang1Activity"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

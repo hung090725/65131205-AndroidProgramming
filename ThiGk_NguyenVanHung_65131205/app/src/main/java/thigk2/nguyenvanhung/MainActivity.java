@@ -1,72 +1,72 @@
 package thigk2.nguyenvanhung;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Toast;
-
-import androidx.activity.EdgeToEdge;
+import android.view.MenuItem;
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
+import androidx.fragment.app.Fragment;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
 
-    // Khai bao cac CardView chuc nang
-    CardView cardChucNang1, cardChucNang2, cardChucNang3, cardChucNang4;
+    private BottomNavigationView bottomNav;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
-        
-        // Setup padding cho system bars
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
 
-        // Anh xa cac view tu layout
-        timChieuCacView();
+        bottomNav = findViewById(R.id.bottom_navigation);
 
-        // Thiet lap su kien click
-        caiDatSuKien();
+        // Nap HomeFragment mac dinh khi lan dau mo app
+        if (savedInstanceState == null) {
+            replaceFragment(new HomeFragment());
+        }
+
+        bottomNav.setOnItemSelectedListener(this::handleNavigation);
     }
 
-    private void timChieuCacView() {
-        cardChucNang1 = findViewById(R.id.card_chuc_nang_1);
-        cardChucNang2 = findViewById(R.id.card_chuc_nang_2);
-        cardChucNang3 = findViewById(R.id.card_chuc_nang_3);
-        cardChucNang4 = findViewById(R.id.card_chuc_nang_4);
+    private boolean handleNavigation(@NonNull MenuItem item) {
+        Fragment fragment;
+        int id = item.getItemId();
+
+        if (id == R.id.nav_home) {
+            fragment = new HomeFragment();
+        } else if (id == R.id.nav_hinh_hoc) {
+            fragment = new ChucNang1Fragment();
+        } else if (id == R.id.nav_tinh_thanh) {
+            fragment = new ChucNang2Fragment();
+        } else if (id == R.id.nav_du_lich) {
+            fragment = new ChucNang3Fragment();
+        } else if (id == R.id.nav_ca_nhan) {
+            fragment = new ChucNang4Fragment();
+        } else {
+            return false;
+        }
+
+        replaceFragment(fragment);
+        return true;
     }
 
-    private void caiDatSuKien() {
-        // Chuc nang 1: Tinh toan
-        cardChucNang1.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, ChucNang1Activity.class);
-            startActivity(intent);
-        });
+    // Goi tu HomeFragment khi nhan CardView
+    public void navigateTo(int navItemId) {
+        bottomNav.setSelectedItemId(navItemId);
+    }
 
-        // Chuc nang 2: Tinh thanh
-        cardChucNang2.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, ChucNang2Activity.class);
-            startActivity(intent);
-        });
+    @Override
+    public void onBackPressed() {
+        if (bottomNav.getSelectedItemId() != R.id.nav_home) {
+            bottomNav.setSelectedItemId(R.id.nav_home);
+        } else {
+            super.onBackPressed();
+        }
+    }
 
-        // Chuc nang 3: Du lich
-        cardChucNang3.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, ChucNang3Activity.class);
-            startActivity(intent);
-        });
-
-        // Chuc nang 4: Ca nhan
-        cardChucNang4.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, ChucNang4Activity.class);
-            startActivity(intent);
-        });
+    private void replaceFragment(Fragment fragment) {
+        getSupportFragmentManager()
+            .beginTransaction()
+            .setCustomAnimations(android.R.anim.fade_in, android.R.anim.fade_out)
+            .replace(R.id.fragment_container, fragment)
+            .commitAllowingStateLoss();
     }
 }
