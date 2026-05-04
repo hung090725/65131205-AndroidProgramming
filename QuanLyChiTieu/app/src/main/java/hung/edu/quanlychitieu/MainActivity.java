@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference myRef = database.getReference("message");//dây là key
 
-        myRef.setValue("Hello, Nguyễn Văn Hưng");
+        // myRef.setValue("Hello, Nguyễn Văn Hưng");
 
         // Read from the database
         myRef.addValueEventListener(new ValueEventListener() {
