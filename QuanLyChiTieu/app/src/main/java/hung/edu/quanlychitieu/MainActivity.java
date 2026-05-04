@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference myRef = database.getReference("message");//dây là key
 
-        // myRef.setValue("Hello, Nguyễn Văn Hưng");
+        myRef.setValue("Hello, Nguyễn Văn Hưng");
 
         // Read from the database
         myRef.addValueEventListener(new ValueEventListener() {
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
                 // và chạy lại mỗi khi dữ liệu "message" thay đổi
 
                 String value = snapshot.getValue(String.class);
-
+                tvMessage.setText(value); // Hiển thị lên màn hình
                 Toast.makeText(getBaseContext(), "Value is: " + value, Toast.LENGTH_LONG).show();
             }
 
