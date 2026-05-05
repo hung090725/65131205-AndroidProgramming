@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "962451405272",
+    "firebase_url": "https://vclp4-93d83-default-rtdb.firebaseio.com",
+    "project_id": "vclp4-93d83",
+    "storage_bucket": "vclp4-93d83.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962451405272:android:2dae1fe25f3a8dfc3f9aad",
+        "android_client_info": {
+          "package_name": "hung.edu.vclp4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoFNU9k8jn5tviEY-BBQ35Z2aWqh77ebE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
