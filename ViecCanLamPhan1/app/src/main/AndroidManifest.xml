@@ -20,6 +20,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity 
+            android:name=".ThemTaskActivity"
+            android:label="Thêm Việc Cần Làm"
+            android:parentActivityName=".MainActivity" />
     </application>
 
 </manifest>

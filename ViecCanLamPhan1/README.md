@@ -19,11 +19,13 @@
 ### 1. Giao diện ứng dụng
 Ứng dụng có giao diện hiện đại, dễ sử dụng với các trường nhập liệu rõ ràng và nút bấm lưu dữ liệu.
 
-![Giao diện ứng dụng](https://via.placeholder.com/300x600?text=Giao+diện+Ứng+dụng+Android)
-*(Lưu ý: Thay thế bằng hình ảnh thực tế nếu cần)*
+![Giao diện ứng dụng](images/app_ui.png)
 
 ### 2. Cấu trúc dữ liệu trên Firebase
 Dữ liệu được tổ chức dưới dạng cấu trúc cây trong Firebase Realtime Database:
+
+![Kết quả trên Firebase](images/firebase_result.png)
+
 - `TASKS`
     - `{TaskID}`
         - `date`: Ngày thực hiện
