@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Bonus Task Manager</string>
+    <string name="gcm_defaultSenderId" translatable="false">654861179371</string>
+    <string name="google_api_key" translatable="false">AIzaSyC522QrpNGnVbfyi1W0ojUxbLgfeejoHUs</string>
+    <string name="google_app_id" translatable="false">1:654861179371:android:f4b9d8a1d37fb70bbbe1ae</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC522QrpNGnVbfyi1W0ojUxbLgfeejoHUs</string>
+    <string name="google_storage_bucket" translatable="false">bonusfirestore.firebasestorage.app</string>
+    <string name="project_id" translatable="false">bonusfirestore</string>
+    <style name="Base.Theme.BonusFireStore" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.BonusFireStore" parent="Base.Theme.BonusFireStore"/>
+</resources>
