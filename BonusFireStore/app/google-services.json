@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "654861179371",
+    "project_id": "bonusfirestore",
+    "storage_bucket": "bonusfirestore.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654861179371:android:f4b9d8a1d37fb70bbbe1ae",
+        "android_client_info": {
+          "package_name": "hung.edu.bonusfirestore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC522QrpNGnVbfyi1W0ojUxbLgfeejoHUs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
